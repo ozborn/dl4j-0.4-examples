@@ -2,5 +2,6 @@
 # Moral of story - explicit lookup table and vocab cache required?
 #java -cp ./:target/classes:target/deeplearning4j-examples-0.4-rc0-SNAPSHOT.jar org.deeplearning4j.examples.word2vec.Word2VecRawTextExample5
 #java -cp ./:target/classes:target/deeplearning4j-examples-0.4-rc0-SNAPSHOT.jar org.deeplearning4j.examples.word2vec.Word2VecRawTextExample4
-java -cp ./:target/classes:target/deeplearning4j-examples-0.4-rc0-SNAPSHOT.jar org.deeplearning4j.examples.word2vec.Word2VecRawTextExample3
-#java -cp ./:target/classes:target/deeplearning4j-examples-0.4-rc0-SNAPSHOT.jar org.deeplearning4j.examples.word2vec.Word2VecRawTextExample2
+#java -cp ./:target/classes:target/deeplearning4j-examples-0.4-rc0-SNAPSHOT.jar org.deeplearning4j.examples.word2vec.Word2VecRawTextExample3
+java -cp ./:target/classes:target/deeplearning4j-examples-0.4-rc0-SNAPSHOT.jar org.deeplearning4j.examples.word2vec.Word2VecRawTextExample2
+#java -Dorg.nd4j.linalg.cpu.force_native=false -cp ./:target/classes:target/deeplearning4j-examples-0.4-rc0-SNAPSHOT.jar org.deeplearning4j.examples.word2vec.Word2VecRawTextExample2
